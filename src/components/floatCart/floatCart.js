@@ -125,7 +125,7 @@ class FloatCart extends Component{
 							}
 						})
 						this.removeProduct('');
-						this.props.fetchUser()
+						//this.props.fetchUser();
 						swal("Good job!", "Thanks for purchase in Aerolab :D", "success");					
 					}			
 			}	

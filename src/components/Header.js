@@ -17,10 +17,9 @@ import { fetchUser } from '../store/actions/userActions';
 	 }
 
 	componentWillReceiveProps(nextProps) {
-		if(this.props.user){
-			if(this.props.user.points != nextProps.user.points)
-				this.props.fetchUser();
-		}
+
+		this.props.fetchUser();
+
 	}
 
  	render(){
