@@ -1,5 +1,6 @@
 ## 🛍️ Simple Ecommerce site application built using React & Redux for Aerolab :D
-![Output sample](https://i.imgur.com/sN4nPQc.gif)
+[![See on Youtube](https://img.youtube.com/vi/i1v3zxfTIVU/0.jpg)]
+(https://www.youtube.com/watch?v=i1v3zxfTIVU)
 
 ## Basic Overview  [Live Demo](https://erpfa-dzlwhmvgpi.now.sh)
 
