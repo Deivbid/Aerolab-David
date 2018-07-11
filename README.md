@@ -1,5 +1,5 @@
 ## 🛍️ Simple Ecommerce site application built using React & Redux for Aerolab :D
-[Crack](https://i.imgur.com/sN4nPQc.gifv)
+[](https://i.imgur.com/sN4nPQc.gifv)
 
 ## Basic Overview  [Live Demo](https://react-shopping-cart-67954.firebaseapp.com/)
 
