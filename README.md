@@ -1,8 +1,8 @@
 ## 🛍️ Simple Ecommerce site application built using React & Redux for Aerolab :D
-[![See on Youtube](https://img.youtube.com/vi/i1v3zxfTIVU/0.jpg)]
-(https://www.youtube.com/watch?v=i1v3zxfTIVU)
+![See on Youtube](https://img.youtube.com/vi/i1v3zxfTIVU/0.jpg)
+[Watch the Video](https://www.youtube.com/watch?v=i1v3zxfTIVU)
 
-## Basic Overview  [Live Demo](https://erpfa-dzlwhmvgpi.now.sh)
+## Basic Overview  [Live Demo](https://erpfa-tgwrjlcbwe.now.sh)
 
 This simple shopping site prototype shows how React components and Redux can be used to build a
 friendly user experience with instant visual updates and scaleable code in ecommerce applications. Thanks Aerolab for the opportunity

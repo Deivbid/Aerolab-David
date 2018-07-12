@@ -172,6 +172,7 @@ footer a:hover {
 
 .shelf-container {
   float: left;
+  width: 100%;
 }
 .shelf-container-header {
   margin-bottom: 10px;
