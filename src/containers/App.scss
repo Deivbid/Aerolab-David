@@ -22,6 +22,11 @@ main {
 
 .clearfix {
     clear: both;
+    border: 1px solid #d9d9d9;
+    margin: 10px;
+    width: 97%;
+    margin-left: 10px;
+
 }
 
 .clearfix-line{
@@ -279,20 +284,27 @@ footer {
             float: left;
             color:#a3a3a3;
             font-size: 20px;
+            margin-bottom: 10px;
             button {
+                background: #ededed;
+                font-family: "Source Sans Pro", sans-serif;
+                border-radius: 100px;
+                width: 160px;
+                height: 48px;
                 outline: none;
                 border: 1px solid #ececec;
-                border-radius: 4px;
-                padding: 5px 10px;
-                margin-left: 10px;
                 cursor: pointer;
-                border-radius:100px;
-                color:#a3a3a3;
-                letter-spacing:-0.15px;
-                font-size:17px;
-                line-height:20px;
-                font-family: 'Open Sans' sans-serif;
-                font-weight: 700;
+                font-size: 22px;
+                letter-spacing: -0.15px;
+                line-height: 48px;
+                margin: 5px;
+                color: #a3a3a3;
+
+                h5{
+                    display: inline;
+                    position: relative;
+                    bottom: 4px;
+                }
 
                 &:hover {
                     background:#0ad4fa;
@@ -304,6 +316,29 @@ footer {
                     color: #FFF;
                     transition: background 0.2s;
                 }
+            }
+
+            .pagination-number{
+                display: inline;
+                padding: 0 35px;
+                border-right: 2px solid #d9d9d9;
+            }
+
+/*             button{
+                background: #ededed;
+                border-radius: 100px;
+                width: 172px;
+                height: 48px;
+            } */
+
+            span{
+                font-family: 'Open Sans' sans-serif;
+                font-size:24px;
+                color:#a3a3a3;
+                letter-spacing:-0.15px;
+                line-height:48px;
+                text-align:left;
+                margin-left: 40px;
             }
         }
 
@@ -891,17 +926,26 @@ footer {
         }
 
         .sort {
-            width: 100%;
+            width: 350px;
             text-align: center;
+            margin-left: 5px;
             span{
                 font-size: 15px;
+                letter-spacing: -0.15px;
+                line-height: 48px;
+                text-align: left;
+                margin-left: -11px;
             }
 
             button{
-                padding: 4px 5px;
-                margin-left: 5px;
-                font-size: 8px;
-                line-height: 15px;
+                line-height: 3px;
+                width: 89px;
+                height: 30px;
+                font-size: 13px;
+            }
+
+            .pagination-number{
+                display:none;
             }
         }
 

@@ -10,8 +10,8 @@ import Selectbox from '../SelectBox';
 
 const sortBy = [
   { value: '',           label: 'Most Recent'  },
-  { value: 'lowestprice', label: 'Lowest to highest' },
-  { value: 'highestprice', label: 'Highest to lowest' },
+  { value: 'lowestprice', label: 'Lowest Price' },
+  { value: 'highestprice', label: 'Highest Price' },
 ];
 
 class Sort extends Component{
@@ -31,6 +31,9 @@ class Sort extends Component{
 		render() {
 				return (
 						<div className="sort">
+							<div className="pagination-number">
+								Here will be the numbers 
+							</div>
 							<span>Sort by:</span> {this.Sort()}
 						</div>
 				);

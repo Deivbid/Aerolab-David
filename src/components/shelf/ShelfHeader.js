@@ -10,7 +10,6 @@ const ShelfHeader = () => {
 	return( 
 		<div className='shelf-container-header'>      		
       		<Sort />
-			<Filter />
       		<Clearfix />
 		</div>
 	)

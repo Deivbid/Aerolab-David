@@ -14,6 +14,10 @@ main {
 
 .clearfix {
   clear: both;
+  border: 1px solid #d9d9d9;
+  margin: 10px;
+  width: 97%;
+  margin-left: 10px;
 }
 
 .clearfix-line {
@@ -248,21 +252,33 @@ footer a:hover {
   float: left;
   color: #a3a3a3;
   font-size: 20px;
+  margin-bottom: 10px;
+  /*             button{
+                  background: #ededed;
+                  border-radius: 100px;
+                  width: 172px;
+                  height: 48px;
+              } */
 }
 .shelf-container-header .sort button {
+  background: #ededed;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 100px;
+  width: 160px;
+  height: 48px;
   outline: none;
   border: 1px solid #ececec;
-  border-radius: 4px;
-  padding: 5px 10px;
-  margin-left: 10px;
   cursor: pointer;
-  border-radius: 100px;
-  color: #a3a3a3;
+  font-size: 22px;
   letter-spacing: -0.15px;
-  font-size: 17px;
-  line-height: 20px;
-  font-family: "Open Sans" sans-serif;
-  font-weight: 700;
+  line-height: 48px;
+  margin: 5px;
+  color: #a3a3a3;
+}
+.shelf-container-header .sort button h5 {
+  display: inline;
+  position: relative;
+  bottom: 4px;
 }
 .shelf-container-header .sort button:hover {
   background: #0ad4fa;
@@ -273,6 +289,20 @@ footer a:hover {
   background: #0ad4fa;
   color: #FFF;
   transition: background 0.2s;
+}
+.shelf-container-header .sort .pagination-number {
+  display: inline;
+  padding: 0 35px;
+  border-right: 2px solid #d9d9d9;
+}
+.shelf-container-header .sort span {
+  font-family: "Open Sans" sans-serif;
+  font-size: 24px;
+  color: #a3a3a3;
+  letter-spacing: -0.15px;
+  line-height: 48px;
+  text-align: left;
+  margin-left: 40px;
 }
 .shelf-container-header .filter-sort {
   float: right;
@@ -805,17 +835,25 @@ footer a:hover {
     margin: 10px 0;
   }
   .shelf-container-header .sort {
-    width: 100%;
+    width: 350px;
     text-align: center;
+    margin-left: 5px;
   }
   .shelf-container-header .sort span {
     font-size: 15px;
+    letter-spacing: -0.15px;
+    line-height: 48px;
+    text-align: left;
+    margin-left: -11px;
   }
   .shelf-container-header .sort button {
-    padding: 4px 5px;
-    margin-left: 5px;
-    font-size: 8px;
-    line-height: 15px;
+    line-height: 3px;
+    width: 89px;
+    height: 30px;
+    font-size: 13px;
+  }
+  .shelf-container-header .sort .pagination-number {
+    display: none;
   }
   .shelf-container-header .filter-sort {
     width: 100%;

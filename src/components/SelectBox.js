@@ -13,7 +13,7 @@ class SelectedBox extends Component{
 		const { classes, options } = this.props;
 		return(
 		    <button onClick={ (e) => this.onChange(options) }>
-		        {options.label}
+		        <h5>{options.label}</h5>
 		    </button>
 		)
 	}
