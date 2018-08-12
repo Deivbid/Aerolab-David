@@ -38,7 +38,6 @@ import { fetchUser } from '../store/actions/userActions';
  						<span className="user-points user-item"> {user && user.points} </span>
  						<img className="coin user-item" src={Coin} alt="aerolab-logo" />
  					</div>
- 					<FloatCart />
  				</div>
  			</div>
  		)
