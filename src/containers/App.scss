@@ -29,6 +29,11 @@ main {
 
 }
 
+#root > div > main > div.clearfix{
+    position: relative;
+    top: 10px;
+}
+
 .clearfix-line{
     background: #d9d9d9;
     width: 228px;
@@ -965,6 +970,10 @@ footer {
 
             img{
                 left: 30px;
+            }
+
+            .buy-logo{
+                top: 5%;
             }
 
             .clearfix-line{

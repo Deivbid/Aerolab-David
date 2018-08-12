@@ -12,6 +12,16 @@ import ShelfHeader from './ShelfHeader';
 import Clearfix from '../Clearfix';
 
 class Shelf extends Component {
+
+	constructor(props) {
+	  super(props);
+	
+	  this.state = {
+	  	'currentPage' : [],
+	  	'prev' : 0,
+	  	'page': false
+	  };
+	}
 	
 	componentWillMount(){
     	this.props.fetchProducts();
@@ -37,15 +47,14 @@ class Shelf extends Component {
 
 	render(){
 		const {products}  = this.props;
-		    
-	  const p = products.map(p => {
-	      return (
-	        <Product
-	          product={p}
-	          addProduct={this.props.addProduct}
-						key={p._id}
-						user={this.props.user}
-	        />
+	  	const p = products.map(p => {
+	      	return (
+	        	<Product
+	          		product={p}
+	          		addProduct={this.props.addProduct}
+			  		key={p._id}
+			  		user={this.props.user}
+	        	/>
 	      );
 		});
 
@@ -55,7 +64,6 @@ class Shelf extends Component {
 		    	<div className='shelf-container'>
 		    		<ShelfHeader />
 		    		{p}
-          			<Clearfix />
 		    	</div>
 		    	<Clearfix />
 		    </React.Fragment>

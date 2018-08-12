@@ -20,6 +20,11 @@ main {
   margin-left: 10px;
 }
 
+#root > div > main > div.clearfix {
+  position: relative;
+  top: 10px;
+}
+
 .clearfix-line {
   background: #d9d9d9;
   width: 228px;
@@ -869,6 +874,9 @@ footer a:hover {
   }
   .shelf-container .shelf-item img {
     left: 30px;
+  }
+  .shelf-container .shelf-item .buy-logo {
+    top: 5%;
   }
   .shelf-container .shelf-item .clearfix-line {
     left: 15%;
